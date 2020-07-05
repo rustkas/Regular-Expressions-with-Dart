@@ -1,5 +1,5 @@
 void main() {
-  final validExp = RegExp('<HR +(SIZE *= *[0-9]{1,2}){0,1} */{0,1}>',
+  final validExp = RegExp('<HR( +SIZE *= *[0-9]{1,2}){0,1} */{0,1}>',
       caseSensitive: false, multiLine: true);
 
   const html = '''
